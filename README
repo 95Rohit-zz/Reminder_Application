@@ -1,0 +1,7 @@
+This project is for general text reminders using programable text messages.
+
+Used Twilio API along with basic concepts of Python.
+
+Flask is used to provide the backend for the application.
+
+

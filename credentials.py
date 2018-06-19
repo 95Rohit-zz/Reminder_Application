@@ -1,9 +1,8 @@
+account_sid = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+auth_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
 def pg1():
     from twilio.rest import Client
-
-    # put your own credentials here
-    account_sid = "AC327bae16917e2acef5a20109a7d9304c"
-    auth_token = "6d8c7c52f9963538095b68c8b817e59c"
 
     client = Client(account_sid, auth_token)
 
@@ -16,10 +15,6 @@ def pg1():
 def pg2():
     from twilio.rest import Client
 
-    # put your own credentials here
-    account_sid = "AC327bae16917e2acef5a20109a7d9304c"
-    auth_token = "6d8c7c52f9963538095b68c8b817e59c"
-
     client = Client(account_sid, auth_token)
 
     client.messages.create(
@@ -30,10 +25,6 @@ def pg2():
 
 def pg3():
     from twilio.rest import Client
-
-    # put your own credentials here
-    account_sid = "AC327bae16917e2acef5a20109a7d9304c"
-    auth_token = "6d8c7c52f9963538095b68c8b817e59c"
 
     client = Client(account_sid, auth_token)
 
@@ -46,10 +37,6 @@ def pg3():
 def pg4():
     from twilio.rest import Client
 
-    # put your own credentials here
-    account_sid = "AC327bae16917e2acef5a20109a7d9304c"
-    auth_token = "6d8c7c52f9963538095b68c8b817e59c"
-
     client = Client(account_sid, auth_token)
 
     client.messages.create(
@@ -60,10 +47,6 @@ def pg4():
 
 def pg5():
     from twilio.rest import Client
-
-    # put your own credentials here
-    account_sid = "AC327bae16917e2acef5a20109a7d9304c"
-    auth_token = "6d8c7c52f9963538095b68c8b817e59c"
 
     client = Client(account_sid, auth_token)
 
